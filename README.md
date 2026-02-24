@@ -2,6 +2,15 @@
 
 This project implements numerical simulations of classical stochastic processes using Python and NumPy.
 
+## Brownian Bridge
+
+The Brownian bridge is constructed in two different ways:
+
+- Using the Cholesky decomposition of the covariance matrix
+- Using the transformation U_t = B_t - tB_1
+
+Both constructions are compared numerically.
+
 ## Implemented Processes
 
 - Brownian motion
